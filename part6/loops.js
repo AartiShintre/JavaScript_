@@ -112,12 +112,55 @@ for(let num of str){
  console.log(Object.values(citiesPopulation));
 
  //create a game where you start with any random game ask user ti keep guess the no untill user enter correct val
- let gameNum = 25;
-let userNum = prompt("Guess a number");
+//  let gameNum = 25;
+// let userNum = prompt("Guess a number");
 
-while (userNum != gameNum) {
-  userNum = prompt("Wrong guess  Try again:");
+// while (userNum != gameNum) {
+//   userNum = prompt("Wrong guess  Try again:");
+// }
+
+// console.log(" Congratulations! You guessed the correct number");
+
+
+//for-each loop
+let teaCollection = ['earl_gray', 'green_tea', 'chai', 'oolang_tea']
+teaCollection.forEach((tea) =>{
+    console.log(tea);
+})
+
+//write a for each loop that iterates through the array [a, b, c, d] skip c and store other city in array named mainArr
+let arr5 = ["a", "b", "c", "d"];
+let newarr2 = [];
+
+arr5.forEach(function (ele) {
+    if (ele === "c") {
+        return; // skip c
+    }
+    newarr2.push(ele);
+});
+
+console.log(newarr2); // ["a", "b", "d"]
+
+
+// Write a for loop that iterates theough array [2, 5, 7, 9] skip 7 and multiply rest by 2
+let arr6 = [2, 5, 7, 9];
+let newarr3 = [];
+for(let i = 0; i < arr6.length; i++){
+    if(arr6[i] === 7){
+        continue;
+    }
+    newarr3.push(arr6[i]*2) ;
+
 }
+console.log(newarr3);
 
-console.log(" Congratulations! You guessed the correct number");
-
+// use for of loop to iterate through array ["Chai", "green_tea", "black_tea", "Jasmine_tea", "herbal_tea"]and stop when the length of tea name is grether than 10 store the teas itrated over in array named shortTeas
+let chai = ["Chai", "green_tea", "black_tea", "Jasmine_tea", "herbal_tea"];
+let newTeas = [];
+for(let chaii of chai){
+    if(chaii.length < 10){
+          newTeas.push(chaii)
+    }
+  
+}
+console.log(newTeas);
