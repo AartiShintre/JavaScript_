@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">JavaScript DOM Fun Examples</h1>
+    <!-- Example1 -->
+    <section id="example1">
+    <h3>Accesing DOM Elements</h3>
+    <p id="myparagraph">This is paragraph, click to button to change me</p>
+    <button id="changeTextButton">Change Text</button>
+    </section>
+
+    <!-- example 2 highlight the city -->
+    <section id="example2">
+    <h3>Travesing the DOM</h3>
+    <ul id="citiesList">
+        <li class="chai">New York</li>
+        <li>Tokyo</li>
+        <li>Paris</li>
+        <li>Landon</li>
+    </ul>
+    <button id="highlightFirstCity">Highlight first City</button>
+    </section>
+
+    <!-- example 3 Manipulating DOM elements -->
+    <section id="example3">
+    <h3>Manipulation DOM Elements</h3>
+    <div id="coffeeOrder">Order : <span 
+    id="coffeeType">Latte</span></div>
+    <button id="changeOrder">Change Order to Espresso</button>
+    </section>
+
+    <!-- example4 Creating and inserting Elements -->
+     <section id="example4">
+    <h3>Creating and inserting Elements</h3>
+    <button id="addNewItem">Add a new item to Shopping List</button>
+     <ul id="shoppingList">
+        <li>Bread</li>
+        <li>Milk</li>
+    </ul>
+</section>
+
+<!-- example5: Removing DOM elements -->
+ <section id="example5">
+      <h3>Removing DOM Elements</h3>
+    <ul id="tasksList">
+        <li>Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li>
+    </ul>
+    <button id="removeLastTask">Remove Last Task</button>
+    </section>
+
+    <!-- example6 -->
+    <section id="example6">
+        <h3>Event HAndling in the DOM</h3>
+        <button id="clickMeButton">Click Me!!</button>
+    </section>
+<!-- 
+    example7 : event Delegation -->
+    <section id="example7">
+        <h3>Event Delegation</h3>
+        <ul id="teaList">
+            <li class="teaItem">Green Tea</li>
+            <li class="teaItem">Black Tea</li>
+            <li class="teaItem">Oolong Tea</li>
+        </ul>
+        <p>Click on any tea to select it</p>
+    </section>
+
+
+    <section id="example8">
+        <h3>Form Handling</h3>
+        <form id="feedbackForm">
+            <label for="feedbackInput">Your Feedback :</label>
+            <input type="text" id="feedbackInput" placeholder="Enter feedback"/>
+            <button types="Submit">Submit Feedback</button>
+        </form>
+        <p id="feedbackDisplay"></p>
+    </section>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
