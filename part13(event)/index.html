@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML events</title>
+</head>
+<body style="background-color:#414141 ; color: aliceblue;">
+    <h2>Amazing Images</h2>
+    <div>
+        <ul id="images">
+            <li><img width="200px" id="photoshop" src="download1.jpeg" alt="photoshop"></li>
+            <li><img width="200px" id="japan" src="download2.jpeg" alt=""></li>
+            <li><img width="200px" id="river" src="download3.jpeg" alt=""></li>
+            <li><img width="200px" id="owl" src="download4.jpeg" alt=""></li>
+            <li><img width="200px" id="prayer" src="download5.jpeg" alt=""></li>
+            <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+
+        </ul>
+    </div>
+</body>
+<script>
+    // document.getElementById("owl").onclick = function(){
+    //     alert("owl clicker")
+    // }
+    document.getElementById('owl').addEventListener("click",function(e){
+      //  alert("Owl clicked")
+       //type, timestamp, defaultPrevented
+    //target, toElement, srcElement, currentTarget
+    //ClientX, clientY, screenX, screenY
+    //altkey, ctrlkey, shiftkey, keyCode
+
+           //Type : to check event type => 
+           // console.log(e.type);
+
+           //timestamp : to check the when the event happend (time in milisecond) =>
+          // console.log(e.timeStamp);
+
+          //defaultPrevented : to check browser default action off or not
+         //console.log(e.defaultPrevented);
+
+         //target : in which element(img) event is clicked
+         //console.log(e.target);
+
+         // cureentTarget : in which element event listner is applied
+         //console.log(e.currentTarget);
+    })
+    //bubbel events =>👉 The event travels from bottom to top (child → parent → body → document)
+    // When you click on an inner element,
+    // that click propagates to the outer elements.
+    // document.getElementById('images').addEventListener("click",function(e){
+    //     console.log("clicked inside ul");
+    // },false)
+
+    //   document.getElementById('owl').addEventListener("click",function(e){
+    //     console.log("owl clicked");
+    //     //e.stopPropagation() => only that event is printed
+    // },false)
+
+    document.querySelector('#images').
+    addEventListener('click',function(e){
+      let  removeIt =  e.target.parentNode
+        removeIt.remove()
+
+    })
+</script>
+</html>
