@@ -1,0 +1,11 @@
+// type conversion
+const inputYear = "2005";
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);
+
+//type coercion : it automatically convert one datatype to other 
+let result = "5" + 2;
+console.log(result);
+console.log("I am " + 23 + "Year old");
+
+console.log('10'-'4'-'3'-2+'5'); // look at it output visely

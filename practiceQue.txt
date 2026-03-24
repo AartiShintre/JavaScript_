@@ -1,0 +1,229 @@
+Level 2 — Strings Practice
+
+Reverse a string.
+
+Check if a string is a palindrome.
+
+Count vowels in a string.
+
+Convert string to uppercase without using built-in method.
+
+Find longest word in a sentence.
+
+Remove spaces from string.
+
+Count character frequency.
+
+Example:
+
+hello → h=1, e=1, l=2, o=1
+
+Level 3 — Arrays Practice
+
+Find largest element in array.
+
+Find smallest element in array.
+
+Reverse an array.
+
+Remove duplicate elements.
+
+Sort array without using .sort().
+
+Find second largest number.
+
+Sum of all elements in array.
+
+Merge two arrays.
+
+Level 4 — Functions
+
+Write function to check prime number.
+
+Function to return square of number.
+
+Function to reverse string.
+
+Function to count vowels.
+
+Function to return max number from array.
+
+Level 5 — DOM Practice (Important)
+
+These will make your JavaScript feel real.
+
+Change text when button is clicked.
+
+Toggle dark/light mode.
+
+Counter app (increment/decrement).
+
+Show alert when form submitted.
+
+Input → display live text.
+
+Change background color randomly.
+
+Hide/show element button.
+
+Image slider.
+
+Digital clock.
+
+To-do list.
+
+Level 6 — Mini Projects (Confidence Level)
+
+If you complete these, your JS basics are strong.
+
+Calculator
+
+Tic-Tac-Toe
+
+Random color generator
+
+Quiz app
+
+Form validation
+
+Notes app
+
+Stopwatch
+
+Password generator
+
+
+
+
+
+
+
+
+
+
+
+BASIC PRACTICE (Logic Strong)
+
+Solve without looking at solutions.
+
+Swap two numbers without third variable
+
+Find largest number in array
+
+Reverse a string
+
+Count vowels in string
+
+Check palindrome string
+
+Sum of array elements
+
+Find factorial using function
+
+Print Fibonacci series
+
+Find duplicate elements in array
+
+Sort array without .sort()
+
+INTERMEDIATE PRACTICE
+
+These improve thinking.
+
+Find second largest number in array
+
+Character frequency counter
+
+Remove duplicates from array
+
+Capitalize first letter of every word
+
+Flatten nested array
+
+Find missing number in array
+
+Group elements by type
+
+Rotate array by one position
+
+Find intersection of two arrays
+
+Shuffle array
+
+DOM PRACTICE (IMPORTANT)
+
+Since you learned DOM + Events.
+
+Counter app
+
+Show/hide password button
+
+Live character counter
+
+Dark mode toggle
+
+Form validation
+
+Image slider
+
+Modal popup
+
+Tabs component
+
+Accordion
+
+Progress bar
+
+These make DOM very strong.
+
+OOP PRACTICE
+
+Since you learned OOP, practice these.
+
+Create Car class with methods
+
+Create BankAccount class
+
+Student class with grade calculation
+
+ShoppingCart class
+
+Library class system
+
+Example idea:
+
+Book
+User
+Library
+
+MINI PROJECTS (CONFIDENCE BUILDERS)
+
+These are perfect for your level.
+
+Easy Projects
+
+Calculator
+
+Random color generator
+
+Digital clock
+
+To-do list
+
+Number guessing game
+
+Intermediate Projects
+
+Quiz app
+
+Notes app (localStorage)
+
+Tic-Tac-Toe
+
+Form validator
+
+Image gallery
+
+Slightly Advanced (for your level)
+
+Weat

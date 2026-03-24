@@ -2,7 +2,7 @@ const obj = {
     firstName : "Arti",
     isloggedin : true,
 
-};// even though we cant chnge the value of const but in non premitive datatype object are unmutable 
+};// even though we cant chnge the value of const but in non premitive datatype object are mutable 
 obj.firstName = "Aarya";
 console.log(obj.firstName);
 console.log(typeof obj);
@@ -26,3 +26,4 @@ console.log(Number(istruee));
 
 let istrueeee = "1";
 console.log(typeof Number(istruee));
+
