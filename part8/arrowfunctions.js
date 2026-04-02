@@ -1,3 +1,7 @@
+const functionName = (parameters) => {
+    // code
+};
+
 const calYear = birthYear => 2027 - 2006;
 console.log(calYear());
 
